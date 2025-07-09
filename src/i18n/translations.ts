@@ -1,0 +1,250 @@
+
+import { useLanguage } from '@/contexts/LanguageContext';
+
+export const translations = {
+  en: {
+    // Header
+    home: 'Home',
+    about: 'About',
+    treatments: 'Treatments',
+    destinations: 'Destinations',
+    patientJourney: 'Patient Journey',
+    testimonials: 'Testimonials',
+    contact: 'Contact',
+    freeConsultation: 'Free Consultation',
+    
+    // Hero Section
+    heroTitle: 'World-Class Medical Care with a',
+    heroTitleHighlight: 'Comfortable Journey',
+    heroSubtitle: 'Combining healthcare excellence with top-notch travel experiences. Your health, our mission.',
+    requestConsultation: 'Request Free Consultation',
+    viewTreatments: 'View Treatments',
+    successfulTreatments: 'Successful Treatments',
+    partnerHospitals: 'Partner Hospitals',
+    countriesServed: 'Countries Served',
+    
+    // Features
+    accreditedHospitals: 'Accredited Hospitals',
+    accreditedDesc: 'JCI certified medical facilities',
+    expertDoctors: 'Expert Doctors',
+    expertDesc: 'Board-certified specialists',
+    globalNetwork: 'Global Network',
+    globalDesc: 'Worldwide medical tourism',
+    support247: '24/7',
+    supportDesc: 'Round-the-clock assistance',
+    
+    // About Page
+    aboutTitle: 'Your Global Healthcare Companion',
+    aboutSubtitle: 'Tibbway was founded to bridge the gap between high-quality healthcare and affordable travel. Our mission is to help international patients access advanced medical services while experiencing hospitality, comfort, and peace of mind.',
+    ourMission: 'Our Mission',
+    missionText1: 'We work with a trusted network of hospitals, clinics, and wellness centers worldwide to provide exceptional medical care at affordable prices. Our team of experienced healthcare professionals and travel coordinators ensures that every aspect of your medical journey is carefully planned and executed.',
+    missionText2: 'From initial consultation to post-treatment follow-up, we\'re with you every step of the way, making sure you receive the best possible care while enjoying a comfortable and stress-free experience.',
+    patientsServed: 'Patients Served',
+    countries: 'Countries',
+    satisfactionRate: 'Satisfaction Rate',
+    ourValues: 'Our Values',
+    valuesSubtitle: 'These core values guide everything we do and ensure the highest standards of care and service.',
+    compassion: 'Compassion',
+    compassionDesc: 'We understand that seeking medical treatment abroad can be overwhelming. Our compassionate team provides emotional support and guidance throughout your journey.',
+    excellence: 'Excellence',
+    excellenceDesc: 'We partner only with internationally accredited hospitals and board-certified specialists to ensure you receive world-class medical care.',
+    transparency: 'Transparency',
+    transparencyDesc: 'We believe in complete transparency with upfront pricing, clear communication, and honest guidance to help you make informed decisions about your healthcare.',
+    
+    // Why Choose Us
+    whyChooseTitle: 'Why Choose Tibbway?',
+    whyChooseSubtitle: 'We\'re committed to providing exceptional medical care combined with unparalleled service to make your healthcare journey smooth and successful.',
+    englishSpeaking: 'English-Speaking Doctors',
+    englishDesc: 'Board-certified specialists fluent in English for clear communication',
+    affordablePackages: 'Affordable Packages',
+    affordableDesc: 'Transparent pricing with up to 70% savings compared to US costs',
+    personalizedCare: 'Personalized Care',
+    personalizedDesc: 'Dedicated care coordinators for your entire medical journey',
+    supportTitle: '24/7 Support',
+    supportDesc24: 'Round-the-clock assistance before, during, and after treatment',
+    healthJourneyTitle: 'Your Health Journey, Simplified',
+    freeConsultationPoint: 'Free initial consultation and treatment planning',
+    medicalReview: 'Comprehensive medical records review',
+    transparentCost: 'Transparent cost breakdown with no hidden fees',
+    visaAssistance: 'Visa assistance and travel coordination',
+    accommodation: 'Accommodation arrangements near medical facilities',
+    followUp: 'Post-treatment follow-up and support',
+    patientSatisfaction: 'Patient Satisfaction Rate',
+    
+    // Treatments
+    popularTreatments: 'Popular Medical Treatments',
+    treatmentsSubtitle: 'Discover our comprehensive range of medical treatments performed by world-class specialists in accredited hospitals worldwide.',
+    cosmeticSurgery: 'Cosmetic Surgery',
+    cosmeticDesc: 'Enhance your appearance with world-class cosmetic procedures',
+    orthopedicSurgery: 'Orthopedic Surgery',
+    orthopedicDesc: 'Advanced bone and joint treatments for better mobility',
+    cardiology: 'Cardiology',
+    cardiologyDesc: 'Comprehensive heart care from leading cardiac specialists',
+    fertilityTreatments: 'Fertility Treatments',
+    fertilityDesc: 'Helping you build the family of your dreams',
+    dentalCare: 'Dental Care',
+    dentalDesc: 'Complete dental solutions for a perfect smile',
+    wellness: 'Wellness & Ayurveda',
+    wellnessDesc: 'Holistic healing and wellness treatments',
+    learnMore: 'Learn More',
+    viewAllTreatments: 'View All Treatments',
+    
+    // Contact Page
+    contactTitle: 'Speak With a Medical Travel Expert',
+    contactSubtitle: 'Ready to begin your medical journey? Our experienced team is here to help you every step of the way. Get your free consultation today.',
+    emailUs: 'Email Us',
+    callUs: 'Call Us',
+    workingHours: 'Working Hours',
+    ourLocations: 'Our Locations',
+    emergencySupport: '24/7 Emergency Support',
+    mondayFriday: 'Mon-Fri: 9AM - 6PM IST',
+    getConsultation: 'Get Your Free Consultation',
+    consultationDesc: 'Fill out the form below and our medical travel experts will contact you within 24 hours.',
+    fullName: 'Full Name',
+    emailAddress: 'Email Address',
+    phoneNumber: 'Phone Number',
+    country: 'Country',
+    treatmentRequired: 'Treatment Required',
+    additionalInfo: 'Additional Information',
+    treatmentPlaceholder: 'e.g., Cardiac Surgery, Orthopedic, Cosmetic Surgery',
+    messagePlaceholder: 'Please provide any additional details about your medical needs, timeline, or questions you may have...',
+    sendMessage: 'Send Message',
+    
+    // Footer
+    footerDesc: 'Your trusted partner in global healthcare. We connect patients with top hospitals and certified specialists around the world, ensuring seamless medical treatments combined with safe, pleasant travel.',
+    quickLinks: 'Quick Links',
+    contactInfo: 'Contact Info',
+    privacyPolicy: 'Privacy Policy',
+    termsConditions: 'Terms & Conditions',
+    medicalDisclaimer: 'Medical Disclaimer',
+    allRightsReserved: '© 2024 Tibbway. All rights reserved.',
+  },
+  
+  ar: {
+    // Header
+    home: 'الرئيسية',
+    about: 'من نحن',
+    treatments: 'العلاجات',
+    destinations: 'الوجهات',
+    patientJourney: 'رحلة المريض',
+    testimonials: 'الشهادات',
+    contact: 'اتصل بنا',
+    freeConsultation: 'استشارة مجانية',
+    
+    // Hero Section
+    heroTitle: 'رعاية طبية عالمية المستوى مع',
+    heroTitleHighlight: 'رحلة مريحة',
+    heroSubtitle: 'الجمع بين التميز في الرعاية الصحية وتجارب السفر الفاخرة. صحتك، مهمتنا.',
+    requestConsultation: 'اطلب استشارة مجانية',
+    viewTreatments: 'عرض العلاجات',
+    successfulTreatments: 'علاج ناجح',
+    partnerHospitals: 'مستشفى شريك',
+    countriesServed: 'دولة نخدمها',
+    
+    // Features
+    accreditedHospitals: 'مستشفيات معتمدة',
+    accreditedDesc: 'مرافق طبية معتمدة من JCI',
+    expertDoctors: 'أطباء خبراء',
+    expertDesc: 'اختصاصيون معتمدون',
+    globalNetwork: 'شبكة عالمية',
+    globalDesc: 'سياحة طبية عالمية',
+    support247: '24/7',
+    supportDesc: 'مساعدة على مدار الساعة',
+    
+    // About Page
+    aboutTitle: 'رفيقك في الرعاية الصحية العالمية',
+    aboutSubtitle: 'تأسست تبواي لسد الفجوة بين الرعاية الصحية عالية الجودة والسفر بأسعار معقولة. مهمتنا هي مساعدة المرضى الدوليين في الحصول على خدمات طبية متقدمة مع تجربة الضيافة والراحة وراحة البال.',
+    ourMission: 'مهمتنا',
+    missionText1: 'نعمل مع شبكة موثوقة من المستشفيات والعيادات ومراكز العافية حول العالم لتقديم رعاية طبية استثنائية بأسعار معقولة. يضمن فريقنا من المهنيين الصحيين ذوي الخبرة ومنسقي السفر التخطيط والتنفيذ الدقيق لكل جانب من جوانب رحلتك الطبية.',
+    missionText2: 'من الاستشارة الأولية إلى المتابعة بعد العلاج، نحن معك في كل خطوة على الطريق، للتأكد من حصولك على أفضل رعاية ممكنة مع الاستمتاع بتجربة مريحة وخالية من التوتر.',
+    patientsServed: 'مريض تم علاجه',
+    countries: 'دولة',
+    satisfactionRate: 'معدل الرضا',
+    ourValues: 'قيمنا',
+    valuesSubtitle: 'تُوجه هذه القيم الأساسية كل ما نقوم به وتضمن أعلى معايير الرعاية والخدمة.',
+    compassion: 'التعاطف',
+    compassionDesc: 'نحن نفهم أن البحث عن العلاج الطبي في الخارج قد يكون مرهقاً. يقدم فريقنا المتعاطف الدعم العاطفي والتوجيه طوال رحلتك.',
+    excellence: 'التميز',
+    excellenceDesc: 'نتعامل فقط مع المستشفيات المعتمدة دولياً والاختصاصيين المعتمدين لضمان حصولك على رعاية طبية عالمية المستوى.',
+    transparency: 'الشفافية',
+    transparencyDesc: 'نؤمن بالشفافية الكاملة مع التسعير المسبق والتواصل الواضح والتوجيه الصادق لمساعدتك على اتخاذ قرارات مدروسة بشأن رعايتك الصحية.',
+    
+    // Why Choose Us
+    whyChooseTitle: 'لماذا تختار تبواي؟',
+    whyChooseSubtitle: 'نحن ملتزمون بتقديم رعاية طبية استثنائية مع خدمة لا مثيل لها لجعل رحلتك الصحية سلسة وناجحة.',
+    englishSpeaking: 'أطباء يتحدثون الإنجليزية',
+    englishDesc: 'اختصاصيون معتمدون يتحدثون الإنجليزية بطلاقة للتواصل الواضح',
+    affordablePackages: 'باقات ميسورة التكلفة',
+    affordableDesc: 'تسعير شفاف مع توفير يصل إلى 70% مقارنة بالتكاليف الأمريكية',
+    personalizedCare: 'رعاية شخصية',
+    personalizedDesc: 'منسقو رعاية مخصصون لرحلتك الطبية بأكملها',
+    supportTitle: 'دعم 24/7',
+    supportDesc24: 'مساعدة على مدار الساعة قبل وأثناء وبعد العلاج',
+    healthJourneyTitle: 'رحلتك الصحية، مبسطة',
+    freeConsultationPoint: 'استشارة أولية مجانية وتخطيط العلاج',
+    medicalReview: 'مراجعة شاملة للسجلات الطبية',
+    transparentCost: 'تفصيل تكلفة شفاف بدون رسوم مخفية',
+    visaAssistance: 'مساعدة في التأشيرة وتنسيق السفر',
+    accommodation: 'ترتيبات الإقامة بالقرب من المرافق الطبية',
+    followUp: 'متابعة ودعم ما بعد العلاج',
+    patientSatisfaction: 'معدل رضا المرضى',
+    
+    // Treatments
+    popularTreatments: 'العلاجات الطبية الشائعة',
+    treatmentsSubtitle: 'اكتشف مجموعتنا الشاملة من العلاجات الطبية التي يقوم بها اختصاصيون عالميون في مستشفيات معتمدة حول العالم.',
+    cosmeticSurgery: 'الجراحة التجميلية',
+    cosmeticDesc: 'تحسين مظهرك بإجراءات تجميلية عالمية المستوى',
+    orthopedicSurgery: 'جراحة العظام',
+    orthopedicDesc: 'علاجات متقدمة للعظام والمفاصل لحركة أفضل',
+    cardiology: 'أمراض القلب',
+    cardiologyDesc: 'رعاية شاملة للقلب من اختصاصيي القلب الرائدين',
+    fertilityTreatments: 'علاجات الخصوبة',
+    fertilityDesc: 'مساعدتك في بناء العائلة التي تحلم بها',
+    dentalCare: 'رعاية الأسنان',
+    dentalDesc: 'حلول أسنان شاملة للحصول على ابتسامة مثالية',
+    wellness: 'العافية والأيورفيدا',
+    wellnessDesc: 'علاجات الشفاء الشامل والعافية',
+    learnMore: 'اعرف المزيد',
+    viewAllTreatments: 'عرض جميع العلاجات',
+    
+    // Contact Page
+    contactTitle: 'تحدث مع خبير السفر الطبي',
+    contactSubtitle: 'هل أنت مستعد لبدء رحلتك الطبية؟ فريقنا ذو الخبرة هنا لمساعدتك في كل خطوة على الطريق. احصل على استشارتك المجانية اليوم.',
+    emailUs: 'راسلنا',
+    callUs: 'اتصل بنا',
+    workingHours: 'ساعات العمل',
+    ourLocations: 'مواقعنا',
+    emergencySupport: 'دعم طوارئ 24/7',
+    mondayFriday: 'الاثنين-الجمعة: 9 صباحاً - 6 مساءً بتوقيت الهند',
+    getConsultation: 'احصل على استشارتك المجانية',
+    consultationDesc: 'املأ النموذج أدناه وسيتواصل معك خبراء السفر الطبي لدينا خلال 24 ساعة.',
+    fullName: 'الاسم الكامل',
+    emailAddress: 'عنوان البريد الإلكتروني',
+    phoneNumber: 'رقم الهاتف',
+    country: 'البلد',
+    treatmentRequired: 'العلاج المطلوب',
+    additionalInfo: 'معلومات إضافية',
+    treatmentPlaceholder: 'مثال: جراحة القلب، العظام، الجراحة التجميلية',
+    messagePlaceholder: 'يرجى تقديم أي تفاصيل إضافية حول احتياجاتك الطبية أو الجدول الزمني أو الأسئلة التي قد تكون لديك...',
+    sendMessage: 'إرسال الرسالة',
+    
+    // Footer
+    footerDesc: 'شريكك الموثوق في الرعاية الصحية العالمية. نربط المرضى بأفضل المستشفيات والاختصاصيين المعتمدين حول العالم، مما يضمن علاجات طبية سلسة مع سفر آمن وممتع.',
+    quickLinks: 'روابط سريعة',
+    contactInfo: 'معلومات الاتصال',
+    privacyPolicy: 'سياسة الخصوصية',
+    termsConditions: 'الشروط والأحكام',
+    medicalDisclaimer: 'إخلاء المسؤولية الطبية',
+    allRightsReserved: '© 2024 تبواي. جميع الحقوق محفوظة.',
+  }
+};
+
+export const useTranslation = () => {
+  const { language } = useLanguage();
+  
+  const t = (key: keyof typeof translations.en): string => {
+    return translations[language][key] || translations.en[key] || key;
+  };
+
+  return { t };
+};
