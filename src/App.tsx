@@ -12,6 +12,7 @@ import Treatments from "./pages/Treatments";
 import Destinations from "./pages/Destinations";
 import PatientJourney from "./pages/PatientJourney";
 import Testimonials from "./pages/Testimonials";
+import Connect from "./pages/Connect";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -31,6 +32,7 @@ const App = () => (
             <Route path="/destinations" element={<Destinations />} />
             <Route path="/patient-journey" element={<PatientJourney />} />
             <Route path="/testimonials" element={<Testimonials />} />
+            <Route path="/connect-me" element={<Connect />} />
             <Route path="/privacy" element={<Index />} />
             <Route path="/terms" element={<Index />} />
             <Route path="/disclaimer" element={<Index />} />
