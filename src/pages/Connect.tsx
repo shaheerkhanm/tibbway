@@ -6,7 +6,7 @@ const Connect = () => {
     {
       title: 'Instagram',
       description: 'Follow our latest updates',
-      url: 'https://instagram.com/tibbway',
+      url: 'https://instagram.com/tibb_way',
       icon: Instagram,
       color: 'bg-white',
     },
@@ -62,7 +62,7 @@ const Connect = () => {
     {
       title: 'Call Us',
       description: 'Speak with our team',
-      url: 'tel:+1234567890',
+      url: 'tel:+916282065943',
       icon: Phone,
       color: 'bg-white',
     },
