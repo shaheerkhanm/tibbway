@@ -88,8 +88,8 @@ const Contact = () => {
                     </CardTitle>
                   </CardHeader>
                   <CardContent>
-                    <p className="text-gray-600">+1 (555) 123-4567</p>
-                    <p className="text-gray-600">+1 (555) 987-6543</p>
+                    <p className="text-gray-600">+91 6282065943‬</p>
+                    <p className="text-gray-600">+91 9539825916‬</p>
                   </CardContent>
                 </Card>
 
