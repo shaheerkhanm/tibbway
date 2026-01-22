@@ -51,7 +51,7 @@ const About = () => {
               </div>
               <div className="bg-gradient-to-br from-purple-100 to-pink-100 rounded-2xl p-6 text-center">
                 <Globe className="w-12 h-12 text-purple-600 mx-auto mb-4" />
-                <div className="text-2xl font-bold text-gray-900">25+</div>
+                <div className="text-2xl font-bold text-gray-900">5+</div>
                 <div className="text-gray-600">{t('Indian States Served')}</div>
               </div>
               <div className="bg-gradient-to-br from-red-100 to-orange-100 rounded-2xl p-6 text-center">
