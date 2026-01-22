@@ -18,7 +18,8 @@ const Header = () => {
   }, {
     name: t('treatments'),
     href: '/treatments'
-  // }, {
+  }, 
+  //  {
   //   name: t('destinations'),
   //   href: '/destinations'
   // }, 
