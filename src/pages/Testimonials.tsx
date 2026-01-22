@@ -89,21 +89,21 @@ const Testimonials = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8 text-center">
             <div>
-              <div className="text-4xl font-bold text-blue-600 mb-2">500+</div>
+              <div className="text-4xl font-bold text-blue-600 mb-2">100+</div>
               <div className="text-gray-600">Happy Patients</div>
             </div>
             <div>
-              <div className="text-4xl font-bold text-green-600 mb-2">98%</div>
+              <div className="text-4xl font-bold text-green-600 mb-2">99%</div>
               <div className="text-gray-600">Success Rate</div>
             </div>
             <div>
               <div className="text-4xl font-bold text-purple-600 mb-2">50+</div>
               <div className="text-gray-600">Partner Hospitals</div>
             </div>
-            <div>
+            {/* <div>
               <div className="text-4xl font-bold text-red-600 mb-2">25+</div>
               <div className="text-gray-600">Countries Served</div>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>
