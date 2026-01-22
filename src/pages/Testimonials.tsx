@@ -10,60 +10,60 @@ const Testimonials = () => {
   const { t } = useTranslation();
 
   const testimonials = [
-    {
-      name: 'Sarah Johnson',
-      country: 'United States',
-      treatment: 'Cardiac Surgery',
-      rating: 5,
-      image: '/lovable-uploads/364a7ef3-90d3-4b5d-8729-c1e51570ef26.jpg',
-      testimonial: 'The care I received was exceptional. The doctors were highly skilled and the staff was incredibly supportive throughout my entire journey. I saved over $50,000 compared to treatment in the US.',
-      hospital: 'Apollo Hospital, Delhi'
-    },
-    {
-      name: 'Ahmed Al-Rashid',
-      country: 'Saudi Arabia',
-      treatment: 'Orthopedic Surgery',
-      rating: 5,
-      image: '/lovable-uploads/4b85beb4-2f4a-4e6e-b52a-f568b99d89c0.jpg',
-      testimonial: 'Tibbway made my medical journey seamless. From visa assistance to post-surgery care, everything was perfectly coordinated. The quality of treatment exceeded my expectations.',
-      hospital: 'Fortis Hospital, Mumbai'
-    },
-    {
-      name: 'Emma Thompson',
-      country: 'United Kingdom',
-      treatment: 'Fertility Treatment',
-      rating: 5,
-      image: '/lovable-uploads/364a7ef3-90d3-4b5d-8729-c1e51570ef26.jpg',
-      testimonial: 'After years of trying, we finally have our miracle baby thanks to the amazing team at the fertility center. The doctors were compassionate and the treatment was world-class.',
-      hospital: 'Manipal Hospital, Bangalore'
-    },
-    {
-      name: 'James Wilson',
-      country: 'Canada',
-      treatment: 'Cosmetic Surgery',
-      rating: 5,
-      image: '/lovable-uploads/4b85beb4-2f4a-4e6e-b52a-f568b99d89c0.jpg',
-      testimonial: 'The results of my surgery are fantastic. The surgeon was incredibly skilled and the recovery process was smooth. I am very satisfied with my decision to choose India for my treatment.',
-      hospital: 'Max Hospital, Delhi'
-    },
-    {
-      name: 'Maria Garcia',
-      country: 'Spain',
-      treatment: 'Dental Implants',
-      rating: 5,
-      image: '/lovable-uploads/364a7ef3-90d3-4b5d-8729-c1e51570ef26.jpg',
-      testimonial: 'I got a complete smile makeover at a fraction of the cost. The dental team was professional and the facilities were state-of-the-art. Highly recommend Tibbway!',
-      hospital: 'Medanta Hospital, Gurgaon'
-    },
-    {
-      name: 'Robert Brown',
-      country: 'Australia',
-      treatment: 'Spine Surgery',
-      rating: 5,
-      image: '/lovable-uploads/4b85beb4-2f4a-4e6e-b52a-f568b99d89c0.jpg',
-      testimonial: 'I can walk pain-free again thanks to the excellent spine surgery. The medical team was exceptional and the follow-up care was outstanding. Best decision I ever made.',
-      hospital: 'AIIMS, Delhi'
-    }
+    // {
+    //   name: 'Sarah Johnson',
+    //   country: 'United States',
+    //   treatment: 'Cardiac Surgery',
+    //   rating: 5,
+    //   image: '/lovable-uploads/364a7ef3-90d3-4b5d-8729-c1e51570ef26.jpg',
+    //   testimonial: 'The care I received was exceptional. The doctors were highly skilled and the staff was incredibly supportive throughout my entire journey. I saved over $50,000 compared to treatment in the US.',
+    //   hospital: 'Apollo Hospital, Delhi'
+    // },
+    // {
+    //   name: 'Ahmed Al-Rashid',
+    //   country: 'Saudi Arabia',
+    //   treatment: 'Orthopedic Surgery',
+    //   rating: 5,
+    //   image: '/lovable-uploads/4b85beb4-2f4a-4e6e-b52a-f568b99d89c0.jpg',
+    //   testimonial: 'Tibbway made my medical journey seamless. From visa assistance to post-surgery care, everything was perfectly coordinated. The quality of treatment exceeded my expectations.',
+    //   hospital: 'Fortis Hospital, Mumbai'
+    // },
+    // {
+    //   name: 'Emma Thompson',
+    //   country: 'United Kingdom',
+    //   treatment: 'Fertility Treatment',
+    //   rating: 5,
+    //   image: '/lovable-uploads/364a7ef3-90d3-4b5d-8729-c1e51570ef26.jpg',
+    //   testimonial: 'After years of trying, we finally have our miracle baby thanks to the amazing team at the fertility center. The doctors were compassionate and the treatment was world-class.',
+    //   hospital: 'Manipal Hospital, Bangalore'
+    // },
+    // {
+    //   name: 'James Wilson',
+    //   country: 'Canada',
+    //   treatment: 'Cosmetic Surgery',
+    //   rating: 5,
+    //   image: '/lovable-uploads/4b85beb4-2f4a-4e6e-b52a-f568b99d89c0.jpg',
+    //   testimonial: 'The results of my surgery are fantastic. The surgeon was incredibly skilled and the recovery process was smooth. I am very satisfied with my decision to choose India for my treatment.',
+    //   hospital: 'Max Hospital, Delhi'
+    // },
+    // {
+    //   name: 'Maria Garcia',
+    //   country: 'Spain',
+    //   treatment: 'Dental Implants',
+    //   rating: 5,
+    //   image: '/lovable-uploads/364a7ef3-90d3-4b5d-8729-c1e51570ef26.jpg',
+    //   testimonial: 'I got a complete smile makeover at a fraction of the cost. The dental team was professional and the facilities were state-of-the-art. Highly recommend Tibbway!',
+    //   hospital: 'Medanta Hospital, Gurgaon'
+    // },
+    // {
+    //   name: 'Robert Brown',
+    //   country: 'Australia',
+    //   treatment: 'Spine Surgery',
+    //   rating: 5,
+    //   image: '/lovable-uploads/4b85beb4-2f4a-4e6e-b52a-f568b99d89c0.jpg',
+    //   testimonial: 'I can walk pain-free again thanks to the excellent spine surgery. The medical team was exceptional and the follow-up care was outstanding. Best decision I ever made.',
+    //   hospital: 'AIIMS, Delhi'
+    // }
   ];
 
   return (
@@ -100,10 +100,10 @@ const Testimonials = () => {
               <div className="text-4xl font-bold text-purple-600 mb-2">50+</div>
               <div className="text-gray-600">Partner Hospitals</div>
             </div>
-            {/* <div>
-              <div className="text-4xl font-bold text-red-600 mb-2">25+</div>
-              <div className="text-gray-600">Countries Served</div>
-            </div> */}
+            <div>
+              <div className="text-4xl font-bold text-red-600 mb-2">5+</div>
+              <div className="text-gray-600">Indian States Served</div>
+            </div> 
           </div>
         </div>
       </section>
