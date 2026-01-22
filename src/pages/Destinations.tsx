@@ -30,7 +30,7 @@ const Destinations = () => {
     },
     {
       country: 'India',
-      city: 'Chennai',
+      city: 'Kerala',
       image: '/lovable-uploads/4b85beb4-2f4a-4e6e-b52a-f568b99d89c0.jpg',
       rating: 4.9,
       hospitals: 18,
