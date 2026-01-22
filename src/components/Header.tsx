@@ -18,10 +18,11 @@ const Header = () => {
   }, {
     name: t('treatments'),
     href: '/treatments'
-  }, {
-    name: t('destinations'),
-    href: '/destinations'
-  }, {
+  // }, {
+  //   name: t('destinations'),
+  //   href: '/destinations'
+  // }, 
+    {
     name: t('patientJourney'),
     href: '/patient-journey'
   }, {
