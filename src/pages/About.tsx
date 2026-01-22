@@ -41,7 +41,7 @@ const About = () => {
             <div className="grid grid-cols-2 gap-6">
               <div className="bg-gradient-to-br from-blue-100 to-cyan-100 rounded-2xl p-6 text-center">
                 <Users className="w-12 h-12 text-blue-600 mx-auto mb-4" />
-                <div className="text-2xl font-bold text-gray-900">500+</div>
+                <div className="text-2xl font-bold text-gray-900">100+</div>
                 <div className="text-gray-600">{t('patientsServed')}</div>
               </div>
               <div className="bg-gradient-to-br from-green-100 to-emerald-100 rounded-2xl p-6 text-center">
@@ -52,11 +52,11 @@ const About = () => {
               <div className="bg-gradient-to-br from-purple-100 to-pink-100 rounded-2xl p-6 text-center">
                 <Globe className="w-12 h-12 text-purple-600 mx-auto mb-4" />
                 <div className="text-2xl font-bold text-gray-900">25+</div>
-                <div className="text-gray-600">{t('countries')}</div>
+                <div className="text-gray-600">{t('Indian States Served')}</div>
               </div>
               <div className="bg-gradient-to-br from-red-100 to-orange-100 rounded-2xl p-6 text-center">
                 <Heart className="w-12 h-12 text-red-600 mx-auto mb-4" />
-                <div className="text-2xl font-bold text-gray-900">98%</div>
+                <div className="text-2xl font-bold text-gray-900">99%</div>
                 <div className="text-gray-600">{t('satisfactionRate')}</div>
               </div>
             </div>
